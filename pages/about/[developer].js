@@ -23,6 +23,9 @@ function DevPage(){
     return <h1>Developer not found</h1>;
   }
 
-  return <h1>{dev.name}</h1>;
+  return (
+  <>
+  <h1>{dev.name} {dev.role}</h1>
+  </>)
 }
 export default DevPage;
